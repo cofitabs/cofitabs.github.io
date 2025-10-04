@@ -3,165 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Otto Johansson - Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="#home" class="nav-link active">Etusivu</a></li>
-            <li><a href="#projects" class="nav-link">Projektit</a></li>
-            <li><a href="#cv" class="nav-link">CV</a></li>
+            <li><a href="index.html" class="nav-link active">Etusivu</a></li>
+            <li><a href="projects.html" class="nav-link">Projektit</a></li>
+            <li><a href="cv.html" class="nav-link">CV</a></li>
         </ul>
     </nav>
 
-
-    <div id="home" class="page active">
-        <div class="hero">
-            <div class="profile-img"><img src="images/omakuva_ilman_taustaa.png" width="100%" /></div>
-            <h1>Otto Johansson</h1>
-            <p>Innovatiivisia ratkaisuja, elegantteja teknologioita</p>
-        </div>
+    <div class="hero">
+        <div class="profile-img"><img src="images/omakuva_ilman_taustaa.png" width="100%" alt="Otto Johansson" /></div>
+        <h1>Otto Johansson</h1>
+        <p>Innovatiivisia ratkaisuja, elegantteja teknologioita</p>
     </div>
-
-  
-    <div id="projects" class="page">
-        <div class="container">
-            <h1>Projektit</h1>
-            <div class="projects">
-                <div class="project-card">
-                    <h3>Tetris-peli</h3>
-                    <p>Tetris-klooni toteutettuna Java 1.4:llä ja Swing-käyttöliittymäkirjastolla 2000-luvun alussa. Sisältää täyden pelimekaniikan, pistelaskurin ja eri vaikeustasot.</p>
-                    <img src="images/tetris.png" />
-                    <span class="tech-tag">Java</span>
-                    <span class="tech-tag">Swing</span>
-                    <span class="tech-tag">OOP</span>
-                </div>
-
-                <div class="project-card">
-                    <h3>Lipunmyyntisovellus</h3>
-                    <p>Haaga-Helian Ohjelmistoprojekti 1 -kurssin ryhmäharjoitustyönä tehty lipunmyyntijärjestelmä, jossa käytetty Spring Bootia, Javascriptiä ja PostgreSQL-tietokantaa. </p>
-                    <img src="images/tg-welcome.png" width="100%" />
-                    <img src="images/tg-sell-tickets.png" width="100%" />
-                    <span class="tech-tag">Java</span>
-                    <span class="tech-tag">Spring Boot</span>
-                    <span class="tech-tag">REST API</span>
-                    <span class="tech-tag">PostgreSQL</span>
-                </div>
-
-                <div class="project-card">
-                    <h3>Blogialusta</h3>
-                    <p>Backend-ohjelmointi -kurssin harjoitustyönä tehty blogialusta.</p>
-                    <img src="images/blogs-all.png" width="90%" />
-                    <img src="images/blog-poems.png" width="90%" />
-                    <span class="tech-tag">Java</span>
-                    <span class="tech-tag">Spring Boot</span>
-                    <span class="tech-tag">Thymeleaf</span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-   
-    <div id="cv" class="page">
-        <div class="container">
-            <h1>Curriculum Vitae</h1>
-
-            <div class="cv-section">
-                <h2>Viimeisin työkokemus</h2>
-                <div class="cv-item">
-                    <h3>Bioanalyytikko</h3>
-                    <div class="date">2021 - Nykyinen</div>
-                    <img src="images/Pihlajalinna_logo_vaaka_RBG.jpg" width="100px" />
-                    <p>Teen näytteenottoa, kliinistä fysiologiaa ja vierianalytiikkaa</p>
-                </div>
-
-                <div class="cv-item">
-                    <h3>Bioanalyytikko</h3>
-                    <div class="date">2017 - 2021</div>
-                    <img src="images/HUS_LOGO_RGB.svg" width="50px" />
-                    <p>Toimin preanalytiikassa näytteenottajana 2020 alkaen myös tiimivastaavana</p>
-                </div>
-
-            </div>
-
-            <div class="cv-section">
-                <h2>Koulutus</h2>
-                <div class="cv-item">
-                    <h3>Tradenomi (AMK), Tietojenkäsittely</h3>
-                    <div class="date">2024-></div>
-                    <img src="images/HH_logo_2020.jpg" width="100px" />
-                    <p>Suuntaudun ohjelmistokehitykseen noudattaen pääosin full stack -kehittäjän opintopolkua</p>
-                </div>
-                <div class="cv-item">
-                    <h3>Bioanalyytikko (AMK)</h3>
-                    <div class="date">2012-2016-></div>
-                    <img src="images/logo_TUNI_fi_violetti_RGB.jpg" width="25%" />
-                    <p>Suoritin bioanalyytikon AMK-tutkinnon Tampereen ammattikorkeakoulussa</p>
-                </div>
-
-                <div class="cv-item">
-                    <h3>Ylioppilas</h3>
-                    <div class="date">1993-1996</div>
-                    <p>Padasjoen lukio</p><img src="images/960px-Ylioppilaslakki.png" width="50px" />
-                    <!--Tekijä: Tiia Monto - Oma teos, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=79038445-->
-                    <p>Kirjoitin 4 eximiaa ja kaksi magnaa</p>
-                </div>
-            </div>
-
-            <div class="cv-section">
-                <h2>Kiinnostuksen kohteet</h2>
-                <div class="hobbies">
-                    <div class="hobby-item">
-                        <h3>Shakki</h3>
-                        <img src="images/Chess_klt45.svg" width="20%" />
-                    <p>
-                        Vahvuuslukuni:
-                        selo 1908
-                        lichess.org rapid n. 2200
-                    </p>
-                        
-                    </div>
-                    <div class="hobby-item">
-                        <h3>Lukeminen</h3>
-                        <p>Yhteiskunta ja politiikka, ohjelmointi</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <style>
-      
-        #home:target ~ nav a[href="#home"],
-        #projects:target ~ nav a[href="#projects"],
-        #cv:target ~ nav a[href="#cv"] {
-            background: #34495e;
-        }
-
-        .page {
-            display: none;
-        }
-
-        #home:target,
-        #projects:target,
-        #cv:target {
-            display: block;
-        }
-
-        /* Oletuksena näytetään etusivu */
-        #home {
-            display: block;
-        }
-
-        #home:target ~ #projects,
-        #home:target ~ #cv,
-        #projects:target ~ #home,
-        #projects:target ~ #cv,
-        #cv:target ~ #home,
-        #cv:target ~ #projects {
-            display: none;
-        }
-    </style>
 </body>
 </html>
