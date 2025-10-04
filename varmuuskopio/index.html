@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link active">Etusivu</a></li>
+                <li><a href="#projects" class="nav-link">Projektit</a></li>
+                <li><a href="#cv" class="nav-link">CV</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section id="home" class="page active" aria-label="Etusivu">
+            <div class="hero">
+                <figure class="profile-img">
+                    <img src="omakuva_ilman_taustaa.png" alt="Otto Johansson" class="img-full" />
+                </figure>
+                <h1>Otto Johansson</h1>
+                <p>Innovatiivisia ratkaisuja, elegantteja teknologioita</p>
+            </div>
+        </section>
+
+  
+        <section id="projects" class="page" aria-label="Projektit">
+            <div class="container">
+                <h1>Projektit</h1>
+                <div class="projects">
+                    <article class="project-card">
+                        <h3>Tetris-peli</h3>
+                        <p>Tetris-klooni toteutettuna Java 1.4:llä ja Swing-käyttöliittymäkirjastolla 2000-luvun alussa. Sisältää täyden pelimekaniikan, pistelaskurin ja eri vaikeustasot.</p>
+                        <figure>
+                            <img src="tetris.png" alt="Tetris-peli" />
+                        </figure>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Swing</span>
+                        <span class="tech-tag">OOP</span>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Lipunmyyntisovellus</h3>
+                        <p>Haaga-Helian Ohjelmistoprojekti 1 -kurssin ryhmäharjoitustyönä tehty lipunmyyntijärjestelmä, jossa käytetty Spring Bootia, Javascriptiä ja PostgreSQL-tietokantaa. </p>
+                        <figure>
+                            <img src="tg-welcome.png" alt="Lipunmyyntisovelluksen tervetulo-näyttö" class="img-full" />
+                        </figure>
+                        <figure>
+                            <img src="tg-sell-tickets.png" alt="Lipunmyyntisovelluksen myynti-ruutu" class="img-full" />
+                        </figure>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">REST API</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Blogialusta</h3>
+                        <p>Backend-ohjelmointi -kurssin harjoitustyönä tehty blogialusta.</p>
+                        <figure>
+                            <img src="blogs-all.png" alt="Blogialustan etusivu" class="img-90" />
+                        </figure>
+                        <figure>
+                            <img src="blog-poems.png" alt="Blogialustan runosivu" class="img-90" />
+                        </figure>
+                        <span class="tech-tag">Java</span>
+                        <span class="tech-tag">Spring Boot</span>
+                        <span class="tech-tag">Thymeleaf</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+   
+        <section id="cv" class="page" aria-label="Curriculum Vitae">
+            <div class="container">
+                <h1>Curriculum Vitae</h1>
+
+                <div class="cv-section">
+                    <h2>Viimeisin työkokemus</h2>
+                    <article class="cv-item">
+                        <h3>Bioanalyytikko</h3>
+                        <div class="date">2021 - Nykyinen</div>
+                        <figure>
+                            <img src="Pihlajalinna_logo_vaaka_RBG.jpg" alt="Pihlajalinna logo" width="100px" />
+                        </figure>
+                        <p>Teen näytteenottoa, kliinistä fysiologiaa ja vierianalytiikkaa</p>
+                    </article>
+
+                    <article class="cv-item">
+                        <h3>Bioanalyytikko</h3>
+                        <div class="date">2017 - 2021</div>
+                        <figure>
+                            <img src="HUS_LOGO_RGB.svg" alt="HUS logo" width="50px" />
+                        </figure>
+                        <p>Toimin preanalytiikassa näytteenottajana 2020 alkaen myös tiimivastaavana</p>
+                    </article>
+
+                </div>
+
+                <div class="cv-section">
+                    <h2>Koulutus</h2>
+                    <article class="cv-item">
+                        <h3>Tradenomi (AMK), Tietojenkäsittely</h3>
+                        <div class="date">2024-&gt;</div>
+                        <figure>
+                            <img src="HH_logo_2020.jpg" alt="Haaga-Helia logo" width="100px" />
+                        </figure>
+                        <p>Suuntaudun ohjelmistokehitykseen noudattaen pääosin full stack -kehittäjän opintopolkua</p>
+                    </article>
+                    <article class="cv-item">
+                        <h3>Bioanalyytikko (AMK)</h3>
+                        <div class="date">2012-2016-&gt;</div>
+                        <figure>
+                            <img src="logo_TUNI_fi_violetti_RGB.jpg" alt="TUNI logo" width="25%" />
+                        </figure>
+                        <p>Suoritin bioanalyytikon AMK-tutkinnon Tampereen ammattikorkeakoulussa</p>
+                    </article>
+
+                    <article class="cv-item">
+                        <h3>Ylioppilas</h3>
+                        <div class="date">1993-1996</div>
+                        <figure>
+                            <img src="960px-Ylioppilaslakki.png" alt="Ylioppilaslakki" width="50px" />
+                        </figure>
+                        <!--Tekijä: Tiia Monto - Oma teos, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=79038445-->
+                        <p>Padasjoen lukio</p>
+                        <p>Kirjoitin 4 eximiaa ja kaksi magnaa</p>
+                    </article>
+                </div>
+
+                <div class="cv-section">
+                    <h2>Kiinnostuksen kohteet</h2>
+                    <div class="hobbies">
+                        <section class="hobby-item">
+                            <h3>Shakki</h3>
+                            <figure>
+                                <img src="Chess_klt45.svg" alt="Shakkiaiheinen kuva" width="20%" />
+                            </figure>
+                            <p>Vahvuuslukuni:
+                                selo 1908
+                                lichess.org rapid n. 2200
+                            </p>
+                        </section>
+                        <section class="hobby-item">
+                            <h3>Lukeminen</h3>
+                            <p>Yhteiskunta ja politiikka, ohjelmointi</p>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    
+</body>
+</html>
