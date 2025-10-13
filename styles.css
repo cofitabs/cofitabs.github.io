@@ -186,10 +186,11 @@ nav a.active {
 
 .hobby-item {
     flex: 1 1 200px;
-    background: #ecf0f1;
+    background: white;
     padding: 1rem;
     border-radius: 8px;
     text-align: center;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
 }
 
 .hobby-item img {
